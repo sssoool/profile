@@ -1,0 +1,72 @@
+h1 {
+color: #ffffff;
+font-family: 'IBM Plex Mono', monospace;
+font-size: 60px;
+}
+
+body {
+  background-color: #D5D5D5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: rgb(107, 107, 107);
+  line-height: 2;
+}
+
+a {
+  box-shadow: inset 0 0 0 0 #CCADA9;
+  color: #A38B87;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 #CCADA9;
+  color: white;
+}
+@media (max-width: 720px) {
+.container {
+  margin: auto;
+  width: 50%;
+  padding: 30px;
+  }
+}
+
+.card{
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  box-shadow: 0 10px 20px #A38B87;
+}
+
+.intro{
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  box-shadow: 0 10px 20px #A38B87;
+  text-align: center;
+}
+
+#intropic {
+  width: 300px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+  }
+  #intropic {
+    width: 100px;
+    border-radius: 20px;
+    margin: auto;
+  }
+
+}
+
